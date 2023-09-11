@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Page Creation With Specific Elements</title>
+    <link rel="stylesheet" href="stage_1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 data-testid="slackUserName">Awanat</h1>
+      <div class="img-container">
+        <img
+          src="/img.jpg"
+          alt="slackDisplayImage"
+          data-testid="Awanat"
+        />
+      </div>
+      <p data-testid="currentDayOfTheWeek">
+        <span class="highlight-text">Current day: </span>
+        <span id="day-of-the-week"
+          >Monday</span
+        >
+        </p>
+        <p><span class="highlight-text">Current time: </span><span data-testid="currentUTCTime"><span id="time">00:00:00</span><span id="meridian"> am</span>
+      </p>
+      <p data-testid="myTrack" class="paragraph">
+        <span class="highlight-text">Track:</span> Frontend Web Development
+      </p>
+      <p data-testid="githubURL" class="paragraph">
+        <span class="highlight-text">Github url: </span>
+        <a
+          href="https://github.com/Hawanah-01/HNG-Front-End-Task.git"
+          >Click here</a
+        >
+        to view this repository
+      </p>
+    </div>
+    <script src="Stage_1.js"></script>
+  </body>
+</html>
